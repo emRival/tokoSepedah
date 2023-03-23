@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6963B2D29CB48B400027D0B /* sepedaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B2C29CB48B400027D0B /* sepedaUIApp.swift */; };
+		A6963B2F29CB48B400027D0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B2E29CB48B400027D0B /* ContentView.swift */; };
+		A6963B3129CB48B500027D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6963B3029CB48B500027D0B /* Assets.xcassets */; };
+		A6963B3429CB48B500027D0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6963B3329CB48B500027D0B /* Preview Assets.xcassets */; };
+		A6963B3E29CB48B600027D0B /* sepedaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B3D29CB48B600027D0B /* sepedaUITests.swift */; };
+		A6963B4829CB48B600027D0B /* sepedaUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B4729CB48B600027D0B /* sepedaUIUITests.swift */; };
+		A6963B4A29CB48B600027D0B /* sepedaUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B4929CB48B600027D0B /* sepedaUIUITestsLaunchTests.swift */; };
+		A6963B5729CB5FD700027D0B /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6963B5629CB5FD700027D0B /* profile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6963B3A29CB48B600027D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6963B2129CB48B400027D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6963B2829CB48B400027D0B;
+			remoteInfo = sepedaUI;
+		};
+		A6963B4429CB48B600027D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6963B2129CB48B400027D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6963B2829CB48B400027D0B;
+			remoteInfo = sepedaUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6963B2929CB48B400027D0B /* sepedaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sepedaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6963B2C29CB48B400027D0B /* sepedaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepedaUIApp.swift; sourceTree = "<group>"; };
+		A6963B2E29CB48B400027D0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6963B3029CB48B500027D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6963B3329CB48B500027D0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6963B3929CB48B600027D0B /* sepedaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sepedaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6963B3D29CB48B600027D0B /* sepedaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepedaUITests.swift; sourceTree = "<group>"; };
+		A6963B4329CB48B600027D0B /* sepedaUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sepedaUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6963B4729CB48B600027D0B /* sepedaUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepedaUIUITests.swift; sourceTree = "<group>"; };
+		A6963B4929CB48B600027D0B /* sepedaUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepedaUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6963B5629CB5FD700027D0B /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6963B2629CB48B400027D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B3629CB48B600027D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B4029CB48B600027D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6963B2029CB48B400027D0B = {
+			isa = PBXGroup;
+			children = (
+				A6963B2B29CB48B400027D0B /* sepedaUI */,
+				A6963B3C29CB48B600027D0B /* sepedaUITests */,
+				A6963B4629CB48B600027D0B /* sepedaUIUITests */,
+				A6963B2A29CB48B400027D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6963B2A29CB48B400027D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6963B2929CB48B400027D0B /* sepedaUI.app */,
+				A6963B3929CB48B600027D0B /* sepedaUITests.xctest */,
+				A6963B4329CB48B600027D0B /* sepedaUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6963B2B29CB48B400027D0B /* sepedaUI */ = {
+			isa = PBXGroup;
+			children = (
+				A6963B2C29CB48B400027D0B /* sepedaUIApp.swift */,
+				A6963B2E29CB48B400027D0B /* ContentView.swift */,
+				A6963B3029CB48B500027D0B /* Assets.xcassets */,
+				A6963B3229CB48B500027D0B /* Preview Content */,
+				A6963B5629CB5FD700027D0B /* profile.swift */,
+			);
+			path = sepedaUI;
+			sourceTree = "<group>";
+		};
+		A6963B3229CB48B500027D0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6963B3329CB48B500027D0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6963B3C29CB48B600027D0B /* sepedaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6963B3D29CB48B600027D0B /* sepedaUITests.swift */,
+			);
+			path = sepedaUITests;
+			sourceTree = "<group>";
+		};
+		A6963B4629CB48B600027D0B /* sepedaUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6963B4729CB48B600027D0B /* sepedaUIUITests.swift */,
+				A6963B4929CB48B600027D0B /* sepedaUIUITestsLaunchTests.swift */,
+			);
+			path = sepedaUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6963B2829CB48B400027D0B /* sepedaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6963B4D29CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUI" */;
+			buildPhases = (
+				A6963B2529CB48B400027D0B /* Sources */,
+				A6963B2629CB48B400027D0B /* Frameworks */,
+				A6963B2729CB48B400027D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sepedaUI;
+			productName = sepedaUI;
+			productReference = A6963B2929CB48B400027D0B /* sepedaUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6963B3829CB48B600027D0B /* sepedaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6963B5029CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUITests" */;
+			buildPhases = (
+				A6963B3529CB48B600027D0B /* Sources */,
+				A6963B3629CB48B600027D0B /* Frameworks */,
+				A6963B3729CB48B600027D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6963B3B29CB48B600027D0B /* PBXTargetDependency */,
+			);
+			name = sepedaUITests;
+			productName = sepedaUITests;
+			productReference = A6963B3929CB48B600027D0B /* sepedaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6963B4229CB48B600027D0B /* sepedaUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6963B5329CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUIUITests" */;
+			buildPhases = (
+				A6963B3F29CB48B600027D0B /* Sources */,
+				A6963B4029CB48B600027D0B /* Frameworks */,
+				A6963B4129CB48B600027D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6963B4529CB48B600027D0B /* PBXTargetDependency */,
+			);
+			name = sepedaUIUITests;
+			productName = sepedaUIUITests;
+			productReference = A6963B4329CB48B600027D0B /* sepedaUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6963B2129CB48B400027D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A6963B2829CB48B400027D0B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6963B3829CB48B600027D0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6963B2829CB48B400027D0B;
+					};
+					A6963B4229CB48B600027D0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A6963B2829CB48B400027D0B;
+					};
+				};
+			};
+			buildConfigurationList = A6963B2429CB48B400027D0B /* Build configuration list for PBXProject "sepedaUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6963B2029CB48B400027D0B;
+			productRefGroup = A6963B2A29CB48B400027D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6963B2829CB48B400027D0B /* sepedaUI */,
+				A6963B3829CB48B600027D0B /* sepedaUITests */,
+				A6963B4229CB48B600027D0B /* sepedaUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6963B2729CB48B400027D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6963B3429CB48B500027D0B /* Preview Assets.xcassets in Resources */,
+				A6963B3129CB48B500027D0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B3729CB48B600027D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B4129CB48B600027D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6963B2529CB48B400027D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6963B5729CB5FD700027D0B /* profile.swift in Sources */,
+				A6963B2F29CB48B400027D0B /* ContentView.swift in Sources */,
+				A6963B2D29CB48B400027D0B /* sepedaUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B3529CB48B600027D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6963B3E29CB48B600027D0B /* sepedaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6963B3F29CB48B600027D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6963B4A29CB48B600027D0B /* sepedaUIUITestsLaunchTests.swift in Sources */,
+				A6963B4829CB48B600027D0B /* sepedaUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6963B3B29CB48B600027D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6963B2829CB48B400027D0B /* sepedaUI */;
+			targetProxy = A6963B3A29CB48B600027D0B /* PBXContainerItemProxy */;
+		};
+		A6963B4529CB48B600027D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6963B2829CB48B400027D0B /* sepedaUI */;
+			targetProxy = A6963B4429CB48B600027D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6963B4B29CB48B600027D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6963B4C29CB48B600027D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6963B4E29CB48B600027D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sepedaUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6963B4F29CB48B600027D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sepedaUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6963B5129CB48B600027D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sepedaUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sepedaUI";
+			};
+			name = Debug;
+		};
+		A6963B5229CB48B600027D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sepedaUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sepedaUI";
+			};
+			name = Release;
+		};
+		A6963B5429CB48B600027D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sepedaUI;
+			};
+			name = Debug;
+		};
+		A6963B5529CB48B600027D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rival.sepedaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sepedaUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6963B2429CB48B400027D0B /* Build configuration list for PBXProject "sepedaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6963B4B29CB48B600027D0B /* Debug */,
+				A6963B4C29CB48B600027D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6963B4D29CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6963B4E29CB48B600027D0B /* Debug */,
+				A6963B4F29CB48B600027D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6963B5029CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6963B5129CB48B600027D0B /* Debug */,
+				A6963B5229CB48B600027D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6963B5329CB48B600027D0B /* Build configuration list for PBXNativeTarget "sepedaUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6963B5429CB48B600027D0B /* Debug */,
+				A6963B5529CB48B600027D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6963B2129CB48B400027D0B /* Project object */;
+}
